@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1539459757,
+      "filename": "lineage-15.1-20181013-UNOFFICIAL-hwcan.zip",
+      "id": "9fa1dc7a2756f5e1092ebf2e40662d0d",
+      "romtype": "unofficial",
+      "size": 574236045,
+      "url": "https://github.com/skinzor/android_device_huawei_hwcan/releases/download/20181013/lineage-15.1-20181013-UNOFFICIAL-hwcan.zip",
+      "version": "15.1"
+    }
+  ]
+}

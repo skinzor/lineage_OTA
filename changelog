@@ -1,0 +1,21 @@
+==========
+13.10.2018
+==========
+
+- synced LineageOS sources
+- 5 October 2018 security patch
+- added OTA support
+- fixed the freezes caused by libqmi_oem_main
+- fixed the reboot which was occuring when CPU-Z was opened (also the sensorservice's crash)
+- fingerprint will no longer be missing at boot
+- updated audio configs (and audio flags), media and wifi configs
+- enabled QUOTA feature for userdata partition
+- addressed many selinux denials (next build will be enforced)
+- other misc fixes which you can see at commit history
+
+
+NOTICE:
+
+"Quota support has only been tested on ext4 and Linux 3.18 or higher. If enabling on other filesystems, or on older kernel versions, device manufacturers are responsible for testing and vetting for statistics correctness."
+
+You can read more here: https://source.android.com/devices/storage/faster-stats. As a side note, i didn't had any problem with quota on f2fs until now.
