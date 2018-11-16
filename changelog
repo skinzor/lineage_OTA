@@ -1,4 +1,19 @@
 ==========
+15.11.2018
+==========
+
+- synced LineageOS sources
+- 5 November 2018 security patch
+- enforced selinux and addressed more denials
+- switch to BFQ scheduler once phone booted
+- added power off alarm support: set an alarm and power off the phone. The phone will turn itself on with 1 minute before the alarm is supposed to ring. According to my tests, the alarm will ring after 30 seconds after the phone booted and lockscreen appeared.
+- added Wireguard support
+- reverted Huawei's change to qcom,bcl and got in-line with CAF: allow BCL to hotplug 4 cores at 10% battery instead 2 cores at 5%
+- enabled Westwood TCP congestion; you can switch to it with e.g. Kernel Adiutor
+- added vibration control; you can change it with e.g. Kernel Adiutor
+- other misc fixes which you can see in the commit history
+
+==========
 13.10.2018
 ==========
 
